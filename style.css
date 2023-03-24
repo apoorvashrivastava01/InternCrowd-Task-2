@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#NavBar{
+    padding: 1% 5%;
+    background-color: #071343;
+    color: aliceblue;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 120%;
+}
+.nav-items{
+    width: 25%;
+}
+.nav-link{
+    color: aliceblue;
+    padding-left:2%;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#Login{
+    padding: 1% 5%;
+    display: block;
+}
+
+h1{
+    font-size: 300%;
+}
+
+hr{
+    margin:.5% 0%;
+    height: 2px;
+    background-color: #a1a1a1;
+    border: solid 0px;
+}
+
+label{
+    font-size: 120%;
+}
+
+input{
+    margin: .5% 0%;
+    width: 20%;
+    font-size: 120%;
+    border: solid 1.5px #d4d4d4;
+    border-radius: 5px;
+    padding: .5%;
+}
+
+#Login button{
+    padding: .5% 2%;
+    border: solid 0px;
+    background-color: #fb0402;
+    color: aliceblue;
+    font-size: 120%;
+    font-weight:500;
+    border-radius: 5px;
+}
+
+#Login p{
+    margin-top: .5%;
+}
+
+#Register{
+    padding: 1% 5%;
+    display: none;
+}
+
+#Register button{
+    padding: .5% 2%;
+    border: solid 0px;
+    background-color: #0283fb;
+    color: aliceblue;
+    font-size: 120%;
+    font-weight:500;
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hospital.com</title>
+</head>
+<body>  
+    <section id="NavBar">
+        <div class="nav_bar">
+            <div class="logo">
+                <h2>Hospital.com</h2>
+            </div>
+            <div class="nav-items">
+                <a class="nav-link">Home</a>
+                <a class="nav-link">Gallery</a>
+                <a onclick="Register()" class="nav-link">Register</a>
+                <a onclick="Login()" class="nav-link">Login</a>
+                <a class="nav-link">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <section id="Login">
+        <h1>Login Page</h1>
+        <hr>
+            <label for="Username">Username:</label><br>
+            <input type="text"><br>
+            <label for="Password">Password:</label><br>
+            <input type="password"><br>
+            <button onclick="Logedin()">Login</button>
+            <button onclick="Register()">Register</button>
+        <p>Forget Password ? <a href="">Click Here</a></p>
+    </section>
+    <section id="Register">
+        <h1>User Registration Page</h1>
+        <hr>
+            <label for="Name">Name:</label><br>
+            <input type="text"><br>
+            <label for="Email">Email:</label><br>
+            <input type="email"><br>
+            <label for="Mobile">Mobile:</label><br>
+            <input type="number"><br>
+            <label for="Username">Username:</label><br>
+            <input type="text"><br>
+            <label for="Password">Password</label><br>
+            <input type="password"><br>
+            <label for="ConfirmPassword">Confirm Password</label><br>
+            <input type="password"><br>
+            <button onclick="Submitted()">Submit</button>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
